@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #000;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 2rem;
+  z-index: 1;
+  margin-top: 2rem;
+  position: relative;
+}
+
+#canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  outline: none;
+}
+
+.letter-red {
+  color: red;
+}
+
+.letter-green {
+  color: green;
+}
+
+.letter-blue {
+  color: blue;
+}
+
+.letter-yellow {
+  color: yellow;
+}
+
+.letter-purple {
+  color: purple;
+}
+
+.letter-orange {
+  color: orange;
+}
+
+.letter-teal {
+  color: teal;
+}
+
+.letter-pink {
+  color: pink;
+}
+
+.letter-brown {
+  color: brown;
+}
+
+.letter-gray {
+  color: gray;
+}
+
+.letter-magenta {
+  color: magenta;
+}
