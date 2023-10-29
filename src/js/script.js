@@ -1,4 +1,6 @@
-/* global THREE */
+import '../css/styles.css';
+import * as THREE from 'three';
+
 // Scene, Mesh, Camera, Renderer, Clock, Animation, Resize
 
 // Scene
