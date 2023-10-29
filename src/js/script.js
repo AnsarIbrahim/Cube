@@ -43,12 +43,12 @@ const clock = new THREE.Clock();
 const animate = () => {
   const elapsedTime = clock.getElapsedTime();
 
-  mesh.rotation.x = elapsedTime;
-  mesh.rotation.y = elapsedTime;
-  mesh.rotation.z = elapsedTime;
+  mesh.rotation.x = elapsedTime * 0.25;
+  mesh.rotation.y = elapsedTime * 0.25;
+  mesh.rotation.z = elapsedTime * 0.25;
 
-  mesh.position.x = Math.cos(elapsedTime);
-  mesh.position.y = Math.sin(elapsedTime);
+  mesh.position.x = Math.cos(elapsedTime * 0.25);
+  mesh.position.y = Math.sin(elapsedTime * 0.25);
 
   renderer.render(scene, camera);
 
